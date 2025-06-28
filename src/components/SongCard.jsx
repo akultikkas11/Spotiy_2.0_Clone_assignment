@@ -5,8 +5,8 @@ import { playPause, setActiveSong } from '../redux/features/playerSlice';
 
 const SongCard = ({ song, i }) => {
   return (
-    <div></div>
-  )
-};
+    <div>SongCard</div>
+  );
+}
 
 export default SongCard;
