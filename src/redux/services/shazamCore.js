@@ -19,7 +19,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
         baseUrl: 'https://shazam-core.p.rapidapi.com/v1',
         prepareHeaders: (headers)=>{
             headers.set('x-rapidapi-key', '08029dff2emshd65a132c59874e6p11a070jsn593db6fffefd');
-            // headers.set('x-rapidapi-host', 'shazam-core.p.rapidapi.com');
+            headers.set('x-rapidapi-host', 'shazam-core.p.rapidapi.com');
             return headers;
         },
     }),
