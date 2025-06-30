@@ -1,4 +1,4 @@
-## Spotify 2.0 Clone
+# Spotify 2.0 Clone
 
 # 🎵 React Music App
 
